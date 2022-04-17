@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0; /* aca se quitan los margenes que el navegador pone por defecto*/
+ 
+ }
+ 
+ 
+ body {background:#e6e6e6; /* aca se le cambia el color del cuerpo del documento*/
+ }
+ 
+ header {color:green;
+         font-size: 30px;}
+ 
+ 
+ header, .main, footer {background:#fff;  /* aca se le cambia el color de la cabecera*/
+        width:90%;                        /* este se utiliza para hacer el contenido adactable a cualquier tipo de pantalla*/
+        max-width:1000px;                 /* con esto decimos que el tamaño maximo va hacer de mil px*/
+        margin:30px auto;                 /* con el margin se centra el contenido*/
+        padding:10px 0px;
+        text-align:center;                /*con  text-align:center centramos el texto*/
+        
+        
+ }
+ 
+ header .nav { background:white;         /* aca se cambia el menu de navegacion*/
+              font-size: 20px;           /*con  font-size: 20px se define el tamaño de la letra*/
+              overflow:hidden;
+              width:90%;  
+              margin:auto;      
+ }
+ 
+ ul, ol {
+    list-style:none;
+ }
+ 
+ .nav li a{
+         background-color:green;
+         color:#fff;
+         text-decoration:none;
+         padding:10px 50px;
+         display:block;
+ 
+ }
+ 
+ .nav li a:hover{
+ background-color:silver;
+ }
+ 
+ .nav li ul {
+       display:none;
+       position:absolute;
+ }
+ 
+ .nav li:hover>ul{
+       display:block;
+ }
+ 
+ 
+ 
+ 
+ .nav > li{
+              float:left;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .main .articles {
+        width:68.5%;
+        margin-right:1.5%;
+        float:left;
+        background:silver;
+ }
+ 
+ .main .articles article{
+        padding:20px;
+        background:#fff;
+        margin-bottom:20px;
+ 
+ }
+ 
+ aside{
+        width:30%;
+        background:#fff0;
+        float:left;
+        padding:20px
+        box-sizing:border-box;
+ }
+ 
+ footer {
+         background:green;
+         color:#fff;
+         clear:both;
+         padding:10px 0px;
+         text-align:center;
+         font-size: 20px;
+ }
+ 
+ 
